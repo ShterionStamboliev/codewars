@@ -19,10 +19,10 @@ function high(x){
     box[str] = {score: result}
     for (const score of Object.entries(box)) {
         if (box[score[0]].score === box[score[0]].score) {
-            console.log(score[0]);
+            return score[0]
         } 
         
-        // console.log(`${score[0]} ${box[score[0]].score}`);
+        return `${score[0]} ${box[score[0]].score}`
     }
     }
 
